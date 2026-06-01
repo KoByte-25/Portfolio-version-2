@@ -14,52 +14,43 @@ https://templatemo.com/tm-600-prism-flux
         const portfolioData = [
             {
                 id: 1,
-                title: 'Neural Network',
-                description: 'Advanced AI system with deep learning capabilities for predictive analytics and pattern recognition.',
-                image: 'images/neural-network.jpg',
-                tech: ['TensorFlow', 'Python', 'CUDA']
+                title: 'JobSeeker',
+                description: 'Workforce Management System',
+                image: '../photo/projects/JobSeeker/JobSeeker1.png',
+                page: './JobSeeker.html#about',
+                tech: ['J2EE', 'HTML5', 'CSS', 'JavaScript', 'MySQL']
             },
             {
                 id: 2,
-                title: 'Quantum Cloud',
-                description: 'Next-generation cloud infrastructure leveraging quantum computing for unprecedented processing power.',
-                image: 'images/quantum-cloud.jpg',
-                tech: ['AWS', 'Kubernetes', 'Docker']
+                title: 'Real-Time Myanmar Car-License-Plate',
+                description: 'Recognition System',
+                image: '../photo/projects/License-Plate/License1.png',
+                page: './License-Plate.html#about',
+                tech: ['Python', 'Tkinter', 'Yolov5', 'OpenCV', 'MySQL']
             },
             {
                 id: 3,
-                title: 'Blockchain Vault',
-                description: 'Secure decentralized storage solution using advanced encryption and distributed ledger technology.',
-                image: 'images/blockchain-vault.jpg',
-                tech: ['Ethereum', 'Solidity', 'Web3']
+                title: 'PNUTS Simulation in Python',
+                description: '',
+                image: '../photo/projects/PNUTS/PNUTS1.png',
+                page: './PNUTS.html#about',
+                tech: ['Python', 'Flask', 'Shlex', 'Subprocess']
             },
             {
                 id: 4,
-                title: 'Cyber Defense',
-                description: 'Military-grade cybersecurity framework with real-time threat detection and automated response.',
-                image: 'images/cyber-defense.jpg',
-                tech: ['Zero Trust', 'AI Defense', 'Encryption']
+                title: 'TaskHive',
+                description: 'Distributed Task-Management System',
+                image: '../photo/projects/TaskHive/TaskHive1.jpg',
+                page: './TaskHive.html#about',
+                tech: ['Java', 'CORBA', 'C++', 'MySQL']
             },
             {
                 id: 5,
-                title: 'Data Nexus',
-                description: 'Big data processing platform capable of analyzing petabytes of information in real-time.',
-                image: 'images/data-nexus.jpg',
-                tech: ['Apache Spark', 'Hadoop', 'Kafka']
-            },
-            {
-                id: 6,
-                title: 'AR Interface',
-                description: 'Augmented reality system for immersive data visualization and interactive experiences.',
-                image: 'images/ar-interface.jpg',
-                tech: ['Unity', 'ARCore', 'Computer Vision']
-            },
-            {
-                id: 7,
-                title: 'IoT Matrix',
-                description: 'Intelligent IoT ecosystem connecting millions of devices with edge computing capabilities.',
-                image: 'images/iot-matrix.jpg',
-                tech: ['MQTT', 'Edge AI', '5G']
+                title: 'HighRise',
+                description: 'Student Information System',
+                image: '../photo/projects/HighRise/HighRise1.png',
+                page: './HighRise.html#about',
+                tech: ['PHP', 'HTML5', 'CSS', 'JavaScript', 'MySQL']
             }
         ];
 
@@ -141,7 +132,7 @@ https://templatemo.com/tm-600-prism-flux
                     <h3 class="card-title">${data.title}</h3>
                     <p class="card-description">${data.description}</p>
                     <div class="card-tech">${techBadges}</div>
-                    <a class="card-cta" href="./project-details/test.html">Explore</a>
+                    <a class="card-cta" href="${data.page}">Explore More</a>
                 </div>
             `; // Placeholder link for project details
             
