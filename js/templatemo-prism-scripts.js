@@ -56,18 +56,16 @@ https://templatemo.com/tm-600-prism-flux
 
         // Skills data
         const skillsData = [
-            { name: 'React.js', icon: '⚛️', level: 95, category: 'frontend' },
-            { name: 'Node.js', icon: '🟢', level: 90, category: 'backend' },
-            { name: 'TypeScript', icon: '📘', level: 88, category: 'frontend' },
-            { name: 'AWS', icon: '☁️', level: 92, category: 'cloud' },
-            { name: 'Docker', icon: '🐳', level: 85, category: 'cloud' },
-            { name: 'Python', icon: '🐍', level: 93, category: 'backend' },
-            { name: 'Kubernetes', icon: '☸️', level: 82, category: 'cloud' },
-            { name: 'GraphQL', icon: '◈', level: 87, category: 'backend' },
-            { name: 'TensorFlow', icon: '🤖', level: 78, category: 'emerging' },
-            { name: 'Blockchain', icon: '🔗', level: 75, category: 'emerging' },
-            { name: 'Vue.js', icon: '💚', level: 85, category: 'frontend' },
-            { name: 'MongoDB', icon: '🍃', level: 90, category: 'backend' }
+            { name: 'python', icon: '../photo/icons/python.svg', level: 55, category: 'WebTech' },
+            { name: 'java', icon: '../photo/icons/java.svg', level: 70, category: 'WebTech' },
+            { name: 'php', icon: '../photo/icons/php.svg', level: 60, category: 'WebTech' },
+            { name: 'C# & .NET', icon: '../photo/icons/csharp.svg', level: 50, category: 'WebTech' },
+            { name: 'React', icon: '../photo/icons/react.svg', level: 10, category: 'WebTech' },
+            { name: 'git', icon: '../photo/icons/git.svg', level: 60, category: 'TPD' },
+            { name: 'github', icon: '../photo/icons/github.svg', level: 55, category: 'TPD' },
+            { name: 'mysql', icon: '../photo/icons/mysql.svg', level: 65, category: 'TPD' },
+            { name: 'english', icon: '../photo/icons/ielts.png', level: 70, category: 'Lan' },
+            { name: 'japanese', icon: '../photo/icons/jpn.png', level: 40, category: 'Lan' }
         ];
 
         // Scroll to section function
@@ -277,7 +275,7 @@ https://templatemo.com/tm-600-prism-flux
                     hexagon.innerHTML = `
                         <div class="hexagon-inner">
                             <div class="hexagon-content">
-                                <div class="skill-icon-hex">${skill.icon}</div>
+                                <div class="skill-icon-hex"><img src="${skill.icon}" alt="${skill.name}" height="60"></div>
                                 <div class="skill-name-hex">${skill.name}</div>
                                 <div class="skill-level">
                                     <div class="skill-level-fill" style="width: ${skill.level}%"></div>
