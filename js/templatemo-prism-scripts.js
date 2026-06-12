@@ -51,7 +51,24 @@ https://templatemo.com/tm-600-prism-flux
                 image: '../photo/projects/HighRise/HighRise1.png',
                 page: './HighRise.html#about',
                 tech: ['PHP', 'HTML5', 'CSS', 'JavaScript', 'MySQL']
+            },
+            {
+                id: 6,
+                title: 'ChannelSphere',
+                description: 'Order and Delivery Management Platform',
+                image: '../photo/projects/ChannelSphere/ChannelSphere_1.jpg',
+                page: './ChannelSphere.html#about',
+                tech: ['PHP', 'HTML5', 'CSS', 'JavaScript', 'MySQL']
+            },
+            {
+                id: 7,
+                title: 'ByteLoc',
+                description: 'Andriod GPS Tracker',
+                image: '../photo/projects/ByteLoc/ByteLoc.jpg',
+                page: './ByteLoc.html#about',
+                tech: ['Flutter', 'Dart', 'HTTP']
             }
+
         ];
 
         // Skills data
