@@ -67,6 +67,14 @@ https://templatemo.com/tm-600-prism-flux
                 image: '../photo/projects/ByteLoc/ByteLoc.jpg',
                 page: './ByteLoc.html#about',
                 tech: ['Flutter', 'Dart', 'HTTP']
+            },
+            {
+                id: 8,
+                title: 'Automated-CV-Builder',
+                description: 'Uses NLP techniques to transform unstructured user input from a bilingual conversation into a polished, professionally formatted Word document.',
+                image: '../photo/projects/ASESE/ASESE1.png',
+                page: './ASESE.html#about',
+                tech: ['Python', 'NLP', 'Streamlit', 'Docx']
             }
 
         ];
